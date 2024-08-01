@@ -1,4 +1,4 @@
-import HeroImage from "../../assets/food/food5.jpeg";
+import HeroImage from "../../assets/restaurant.jpg";
 import { Link } from "react-router-dom";
 export default function Confirmation() {
   return (

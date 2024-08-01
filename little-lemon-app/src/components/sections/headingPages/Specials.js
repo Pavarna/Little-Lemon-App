@@ -1,7 +1,7 @@
 import Carousel from './SpecialsCarousel';
-import GreekSalad from '../../../assets/food/greek-salad.webp';
-import Bruschetta from '../../../assets/food/bruschetta.jpeg';
-import LemonDessert from '../../../assets/food/lemon-dessert.webp';
+import GreekSalad from '../../../assets/greek salad.jpg';
+import Bruschetta from '../../../assets/Bruchetta.png';
+import LemonDessert from '../../../assets/lemon dessert.jpg';
 import SpecialCard from './CardInfo/SpecialCard';
 
 export default function Specials() {
@@ -21,9 +21,9 @@ export default function Specials() {
                  and lemon zest."/>
             </section>
 
-            <section className="specials-carousel">
+            {/* <section className="specials-carousel">
                 <Carousel />
-            </section>
+            </section> */}
         </section>
     );
 }

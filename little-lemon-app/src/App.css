@@ -57,9 +57,9 @@ Link:link {
 .action-button {
   background-color: #f4ce14;
   padding: 0.5rem 1rem 0.5rem 1rem;
-  border-radius: 0.2rem;
+  border-radius: 3rem;
   font-family: "Karla";
-  font-size: 2rem;
+  font-size: 1rem;
 }
 
 .action-button:hover {
@@ -125,6 +125,15 @@ Link:link {
   margin-bottom: -3rem;
 }
 
+.hero-text > p {
+display: block;
+margin-block-start: 1em;
+margin-block-end: 1em;
+margin-inline-start: 0px;
+margin-inline-end: 95px;
+unicode-bidi: isolate;
+}
+
 .hero-text > h2 {
   font-size: 2.5rem;
 }
@@ -135,9 +144,11 @@ Link:link {
 }
 
 .hero-image > img {
-  width: 100%;
+  padding:3rem 3rem 3rem 10rem;
+  width: 50%;
   height: 100%;
   object-fit: cover;
+  border-radius: 15%;
 }
 
 /* SPECIALS */
@@ -168,12 +179,14 @@ Link:link {
 .menu-card {
   background-color: #edefee;
   padding-bottom: 1rem;
+  border-radius: 1.7rem;
 }
 
 .menu-card > img {
   height: 25vh;
   width: 100%;
   object-fit: cover;
+  border-radius: 1.7rem;
 }
 
 .menu-card-content {
@@ -181,8 +194,14 @@ Link:link {
 }
 
 .menu-card-content > h1 {
-  font-size: 2.2rem;
+  font-size: 2rem;
   margin: 0;
+}
+
+.menu-card-content > h1> span {
+  font-size: 1.6rem;
+  margin: 4%;
+  color:#EE9972;
 }
 
 .menu-card-content > h3 {
@@ -192,8 +211,8 @@ Link:link {
 
 .special-button {
   background-color: #f4ce14;
-  border-radius: 0.2rem;
-  font-size: 1.5rem;
+  border-radius: 2rem;
+  font-size: 1rem;
   padding: 0.5rem;
 }
 
@@ -202,7 +221,6 @@ Link:link {
   color: #eeeeee;
   border-style: solid;
   border-width: 0.1rem;
-  border-color: black;
   transition: 0.2s;
 }
 
@@ -233,15 +251,21 @@ Link:link {
 }
 
 .testimonial-card {
-  background-color: #edefee;
+  background-color: #EDEFEE;
   padding: 1rem 1rem 0 1rem;
 }
 
-.testimonial-card > img {
+.testimonial-card > section > img {
   width: 3rem;
   height: 3rem;
   object-fit: contain;
 }
+
+.testimonial-card > section > h3 {
+  display: inline-block;
+  margin: 5%;
+}
+
 
 .testimonials-carousel {
   display: none;
@@ -259,7 +283,6 @@ Link:link {
   padding: 1.25rem 5rem 2.5rem 5rem;
   min-height: 22rem;
   margin-bottom: -1rem;
-  grid-gap: 25vw;
 }
 
 .about-subtext {
@@ -281,14 +304,15 @@ Link:link {
 
 .about-1 {
   position: relative;
-  top: 0;
-  left: 0;
+  top:-20%;
+  border-radius: 15%;
 }
 
 .about-2 {
   position: absolute;
-  top: -3.5rem;
-  left: 5rem;
+  top:10%;
+  left: 50%;
+  border-radius: 15%;
 }
 
 /* FOOTER STYLING */
@@ -369,7 +393,7 @@ footer > menu {
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  font-size: 25px;
+  font-size: 20px;
   border-radius: 0.5rem;
 }
 
@@ -425,7 +449,7 @@ footer > menu {
 /* MEDIA QUERIES*/
 @media screen and (max-width: 60rem) {
   .action-button {
-    font-size: 1.2rem;
+    font-size: 1rem;
   }
 
   .specials {
