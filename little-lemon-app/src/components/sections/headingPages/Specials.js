@@ -1,15 +1,15 @@
-import Carousel from './SpecialsCarousel';
 import GreekSalad from '../../../assets/greek salad.jpg';
 import Bruschetta from '../../../assets/Bruchetta.png';
 import LemonDessert from '../../../assets/lemon dessert.jpg';
 import SpecialCard from './CardInfo/SpecialCard';
+import { Link } from "react-router-dom";
 
 export default function Specials() {
     return (
         <section className="specials">
             <article className="specials-topbar">
                 <h1>This weeks specials</h1>
-                <a className="action-button" href={require('../../../assets/menu.webp')} target="_blank" rel="noreferrer">Online Menu</a>
+                <Link className="action-button" to="/menu">Online Menu</Link>
             </article>
 
             <section className="specials-cards">
@@ -21,9 +21,6 @@ export default function Specials() {
                  and lemon zest."/>
             </section>
 
-            {/* <section className="specials-carousel">
-                <Carousel />
-            </section> */}
         </section>
     );
 }

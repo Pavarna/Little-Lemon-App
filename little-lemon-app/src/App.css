@@ -386,6 +386,18 @@ footer > menu {
   object-fit: cover;
 }
 
+.image-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.menu-image {
+  height: 40rem;
+  width: 30rem;
+  padding-bottom: 3rem;
+}
+
 .reserve-header-text {
   background-color: #EDEFEE;
   padding: 0 3rem 0 3rem;
@@ -404,6 +416,23 @@ footer > menu {
   background-color: #EDEFEE;
   margin: 10rem 10rem 10rem 10rem;
 }
+
+.about-us-page {
+  padding: 2rem 2rem 2rem 2rem;
+  text-align: center;
+  background-color: #EDEFEE;
+  font-size: 18px;
+  font-family: "Karla", "Sans Serif";
+  margin: 10rem 10rem 10rem 10rem;
+}
+
+.about-us-page-menu {
+  text-align: center;
+  font-size: 18px;
+  font-family: "Karla", "Sans Serif";
+  background-color:#f4ce14;
+}
+
 
 .field-style{
   padding: 1rem;

@@ -6,8 +6,7 @@ export default function Heading() {
                 <section className="hero-text">
                     <h1>Little Lemon</h1>
                     <h2>Chicago</h2>
-                    <p className="subsection">We are a family owned Mediterranean restaurant, located on  Maldove Street in Chicago, Illionis. We focus
-                    on traditional recipes served with a modern twist.</p>
+                    <p className="subsection">Tucked away in the heart of Chicago, Little Lemon is a cozy restaurant that has been tantalizing taste buds with its Mediterranean-inspired cuisine for years. Our chefs have perfected the art of blending traditional flavors with modern twists, creating dishes that are both familiar and excitingly new.</p>
                     <br></br>
                     <Link className="action-button" to="/reservations">Reserve a table</Link>
                 </section>
