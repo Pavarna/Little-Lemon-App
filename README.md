@@ -2,10 +2,10 @@
 
 Meta : Front-End Developer Capstone
 
-This repository includes Navigation,HomePage,Routing,About, Booking and several other components
-Setting up HTML, CSS and app component
-Adding table booking state
-Booking a table on the Little Lemon website
+This repository includes Navigation,HomePage,Routing,About, Booking and several other components, 
+Setting up HTML, CSS and app component, 
+Adding table booking state, 
+Booking a table on the Little Lemon website, 
 Ensuring your application is accessible to users
 
 Figma Links to view 
