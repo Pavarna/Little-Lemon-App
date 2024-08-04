@@ -387,7 +387,7 @@ footer > menu {
 }
 
 .reserve-header-text {
-  background-color: #495e57;
+  background-color: #EDEFEE;
   padding: 0 3rem 0 3rem;
   position: absolute;
   top: 50%;
@@ -395,11 +395,32 @@ footer > menu {
   transform: translate(-50%, -50%);
   font-size: 20px;
   border-radius: 0.5rem;
+  color:#495e57;
 }
 
 .reservation-form {
   padding: 2rem 0 0.5rem 0;
   text-align: center;
+  background-color: #EDEFEE;
+  margin: 10rem 10rem 10rem 10rem;
+}
+
+.field-style{
+  padding: 1rem;
+  border-radius: 1rem;
+  border-style:groove;
+  background-color: white ;
+}
+
+.form-grid{
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 2rem;
+}
+
+.dropdown-form{
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
 }
 
 .reservation-form > div {
@@ -444,6 +465,14 @@ footer > menu {
   background-color: #f4ce14;
   color: #464646 !important;
   transition: 0.2s;
+}
+
+.error-message{
+  color: red !important;
+  border-radius: 0.5rem;
+  font-family: "Karla";
+  font-size: 18px;
+  padding: 2vh 2rem 2vh 2rem;
 }
 
 /* MEDIA QUERIES*/
